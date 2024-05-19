@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-zinc-900">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies | Inforamtion</title>
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+</head>
+<body class="h-screen w-screen text-white bg-zinc-900">
+    <nav class="flex justify-between px-24 max-sm:px-12 bg-zinc-900 h-20 items-center"> 
+        <div class="navleft">
+            <h1 class="font-bold text-2xl ">Movie</h1>
+        </div>
+
+        <a href="#" class="sm:hidden text-xl" >Menu</a>
+
+        <div class="navright max-lg:hidden">
+            <ul class="flex gap-16">
+                <li><a class="text-xl" href="/">Home</a></li>
+                <li> <a class="text-xl" href="/search">Search</a></li>
+                <li><a class="text-xl" href="/addmovie">Add Movies</a></li>
+                <li><a class="text-xl" href="/deletemovie">Delete Movies</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="h-1/2 flex items-center justify-center">
+        <h1 class="text-2xl font-bold"> <%= message %></h1>
+    </header>
+
+</body>
+</html>
